@@ -9,5 +9,11 @@ export const s = StyleSheet.create({
     color: "white",
   },
   searchBar: { flex: 2 },
-  weatherAdvanced: { flex: 1.5 },
+  searchBarInput: {
+    backgroundColor: "white",
+    borderRadius: 15,
+    paddingLeft: 15,
+    fontFamily: "Alata-Regular",
+  },
+  weatherAdvanced: { flex: 1 },
 });
